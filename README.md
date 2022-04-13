@@ -10,7 +10,7 @@ To train the LSTM model mentioned in the paper, you can use the following sample
 You would need an @illinois.edu account to access the [data](https://drive.google.com/file/d/1BPwtfLnRe4bgKQ439eANFxKDvnkzgDNH/view?usp=sharing).
 
 ## Project Layout
-- [mimic3gen](../mimic3gen): This folder contains our data cleaning and extraction efforts. 
+- [mimic3gen](mimic3gen): This folder contains our data cleaning and extraction efforts. 
 - main.py: Train the target model (LSTM). The code references the original repo below and is made compatible in TF2. We follow the structure of the original code for clarity.
   
 ## Reference
