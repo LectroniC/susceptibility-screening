@@ -1,6 +1,6 @@
 # UIUC CS598DLH Reproducibility Project
 
-## [Identify Susceptible Locations in Medical Records via Adversarial Attacks on Deep Predictive Models](https://arxiv.org/abs/1802.04822)
+## Reproducing [Identify Susceptible Locations in Medical Records via Adversarial Attacks on Deep Predictive Models](https://arxiv.org/abs/1802.04822)
 
 ## Introduction
 
