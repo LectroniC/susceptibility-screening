@@ -1,0 +1,65 @@
+{
+    "Albumin":{
+        "possible_values": []
+    },
+    "Bicarbonate":{
+        "possible_values": []
+    },
+    "Blood urea nitrogen":{
+        "possible_values": []
+    },
+    "Calcium":{
+        "possible_values": []
+    },
+    "Creatinine":{
+        "possible_values": []
+    },
+    "Diastolic blood pressure":{
+        "possible_values": []
+    },
+    "Glucose":{
+        "possible_values": []
+    },
+    "Heart Rate":{
+        "possible_values": []
+    },
+    "Height":{
+        "possible_values": []
+    },
+    "Lactate":{
+        "possible_values": []
+    },
+    "Magnesium":{
+        "possible_values": []
+    },
+    "Oxygen saturation":{
+        "possible_values": []
+    },
+    "Partial pressure of carbon dioxide":{
+        "possible_values": []
+    },
+    "Platelets":{
+        "possible_values": []
+    },
+    "Potassium":{
+        "possible_values": []
+    },
+    "Respiratory rate":{
+        "possible_values": []
+    },
+    "Sodium":{
+        "possible_values": []
+    },
+    "Systolic blood pressure":{
+        "possible_values": []
+    },
+    "Temperature":{
+        "possible_values": []
+    },
+    "Weight":{
+        "possible_values": []
+    },
+    "pH":{
+        "possible_values": []
+    }
+}
