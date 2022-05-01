@@ -103,10 +103,10 @@ y_labels = skip_other_two(y_labels)
 x_labels = [i for i in range(19)]
 norm = mcolors.TwoSlopeNorm(vmin=np.min(data), vmax = np.max(data), vcenter=0)
 im, cbar = heatmap(data, y_labels, x_labels, ax=None,
-                   cmap=plt.cm.RdBu_r, cbarlabel="Perturbation",norm=norm)
+                   cmap=plt.cm.RdBu_r, norm=norm)
 plt.xlabel('Measurement',fontsize=label_fontsize)
 plt.ylabel('Time Stamp',fontsize=label_fontsize)
-plt.savefig("2a_random_patient_pertubation_0to1",dpi=800)
+plt.savefig("2a_random_patient_pertubation_0to1.pdf",format="pdf",dpi=800)
 
 
 # Random patient
@@ -127,7 +127,7 @@ plt.figure(figsize=(5, 5))
 plt.plot(nonz, maxp, 'o', color='blue')
 plt.xlabel('Perturbation Percentage',fontsize=label_fontsize)
 plt.ylabel('Perturbation Magnitude',fontsize=label_fontsize)
-plt.savefig("2b_random_patient_magnitude_sparsity",dpi=800)
+plt.savefig("2b_random_patient_magnitude_sparsity.pdf",format="pdf",dpi=800)
 
 
 # Random patient
@@ -145,10 +145,10 @@ y_labels = skip_other_two(y_labels)
 x_labels = [i for i in range(19)]
 norm = mcolors.TwoSlopeNorm(vmin=np.min(data), vmax = np.max(data), vcenter=0)
 im, cbar = heatmap(data, y_labels, x_labels, ax=None,
-                   cmap=plt.cm.RdBu_r, cbarlabel="Perturbation",norm=norm)
+                   cmap=plt.cm.RdBu_r, norm=norm)
 plt.xlabel('Measurement',fontsize=label_fontsize)
 plt.ylabel('Time Stamp',fontsize=label_fontsize)
-plt.savefig("2c_random_patient_pertubation_1to0",dpi=800)
+plt.savefig("2c_random_patient_pertubation_1to0.pdf",format="pdf",dpi=800)
 
 
 # Random patient
@@ -168,7 +168,7 @@ plt.figure(figsize=(5, 5))
 plt.plot(nonz, maxp, 'o', color='blue')
 plt.xlabel('Perturbation Percentage',fontsize=label_fontsize)
 plt.ylabel('Perturbation Magnitude',fontsize=label_fontsize)
-plt.savefig("2d_random_patient_magnitude_sparsity",dpi=800)
+plt.savefig("2d_random_patient_magnitude_sparsity.pdf",format="pdf",dpi=800)
 
 
 
@@ -194,10 +194,10 @@ x_labels = [i for i in range(19)]
 norm = mcolors.TwoSlopeNorm(vmin=np.min(mp_population_level), vmax = np.max(mp_population_level), 
                             vcenter=(np.min(mp_population_level)+np.max(mp_population_level))/2)
 im, cbar = heatmap(mp_population_level, y_labels, x_labels, ax=None,
-                   cmap=plt.cm.RdBu_r, cbarlabel="Perturbation",norm=norm)
+                   cmap=plt.cm.RdBu_r, norm=norm)
 plt.xlabel('Measurement',fontsize=label_fontsize)
 plt.ylabel('Time Stamp',fontsize=label_fontsize)
-plt.savefig("3a0_population_level_mp_0to1",dpi=800)
+plt.savefig("3a0_population_level_mp_0to1.pdf",format="pdf",dpi=800)
 
 
 # Population Level
@@ -222,10 +222,10 @@ x_labels = [i for i in range(19)]
 norm = mcolors.TwoSlopeNorm(vmin=np.min(mp_population_level), vmax = np.max(mp_population_level), 
                             vcenter=(np.min(mp_population_level)+np.max(mp_population_level))/2)
 im, cbar = heatmap(mp_population_level, y_labels, x_labels, ax=None,
-                   cmap=plt.cm.RdBu_r, cbarlabel="Perturbation",norm=norm)
+                   cmap=plt.cm.RdBu_r, norm=norm)
 plt.xlabel('Measurement',fontsize=label_fontsize)
 plt.ylabel('Time Stamp',fontsize=label_fontsize)
-plt.savefig("3a1_population_level_mp_1to0",dpi=800)
+plt.savefig("3a1_population_level_mp_1to0.pdf",format="pdf",dpi=800)
 
 
 # Population Level
@@ -250,10 +250,10 @@ x_labels = [i for i in range(19)]
 norm = mcolors.TwoSlopeNorm(vmin=np.min(ap_population_level), vmax = np.max(ap_population_level), 
                                     vcenter=(np.min(ap_population_level)+np.max(ap_population_level))/2)
 im, cbar = heatmap(ap_population_level, y_labels, x_labels, ax=None,
-                   cmap=plt.cm.RdBu_r, cbarlabel="Perturbation",norm=norm)
+                   cmap=plt.cm.RdBu_r, norm=norm)
 plt.xlabel('Measurement',fontsize=label_fontsize)
 plt.ylabel('Time Stamp',fontsize=label_fontsize)
-plt.savefig("3b0_population_level_ap_0to1",dpi=800)
+plt.savefig("3b0_population_level_ap_0to1.pdf",format="pdf",dpi=800)
 
 
 # Population Level
@@ -278,10 +278,10 @@ x_labels = [i for i in range(19)]
 norm = mcolors.TwoSlopeNorm(vmin=np.min(ap_population_level), vmax = np.max(ap_population_level), 
                                     vcenter=(np.min(ap_population_level)+np.max(ap_population_level))/2)
 im, cbar = heatmap(ap_population_level, y_labels, x_labels, ax=None,
-                   cmap=plt.cm.RdBu_r, cbarlabel="Perturbation",norm=norm)
+                   cmap=plt.cm.RdBu_r, norm=norm)
 plt.xlabel('Measurement',fontsize=label_fontsize)
 plt.ylabel('Time Stamp',fontsize=label_fontsize)
-plt.savefig("3b1_population_level_ap_1to0",dpi=800)
+plt.savefig("3b1_population_level_ap_1to0.pdf",format="pdf",dpi=800)
 
 
 
@@ -306,10 +306,10 @@ y_labels = skip_other_two(y_labels)
 x_labels = [i for i in range(19)]
 norm = mcolors.TwoSlopeNorm(vmin=0, vmax = 1.0, vcenter=0.5)
 im, cbar = heatmap(pp_population_level, y_labels, x_labels, ax=None,
-                   cmap=plt.cm.RdBu_r, cbarlabel="Perturbation",norm=norm)
+                   cmap=plt.cm.RdBu_r, norm=norm)
 plt.xlabel('Measurement',fontsize=label_fontsize)
 plt.ylabel('Time Stamp',fontsize=label_fontsize)
-plt.savefig("3c0_population_level_pp_0to1",dpi=800)
+plt.savefig("3c0_population_level_pp_0to1.pdf",format="pdf",dpi=800)
 
 # Population Level
 # Perturbation 1 to 0
@@ -332,10 +332,10 @@ y_labels = skip_other_two(y_labels)
 x_labels = [i for i in range(19)]
 norm = mcolors.TwoSlopeNorm(vmin=0, vmax = 1.0, vcenter=0.5)
 im, cbar = heatmap(pp_population_level, y_labels, x_labels, ax=None,
-                   cmap=plt.cm.RdBu_r, cbarlabel="Perturbation",norm=norm)
+                   cmap=plt.cm.RdBu_r, norm=norm)
 plt.xlabel('Measurement',fontsize=label_fontsize)
 plt.ylabel('Time Stamp',fontsize=label_fontsize)
-plt.savefig("3c1_population_level_pp_1to0",dpi=800)
+plt.savefig("3c1_population_level_pp_1to0.pdf",format="pdf",dpi=800)
 
 
 # Population Level
@@ -364,10 +364,10 @@ x_labels = [i for i in range(19)]
 norm = mcolors.TwoSlopeNorm(vmin=np.min(sensitivity_score), vmax = np.max(sensitivity_score), 
                                     vcenter=(np.min(sensitivity_score)+np.max(sensitivity_score))/2)
 im, cbar = heatmap(sensitivity_score, y_labels, x_labels, ax=None,
-                   cmap=plt.cm.RdBu_r, cbarlabel="Perturbation",norm=norm)
+                   cmap=plt.cm.RdBu_r, norm=norm)
 plt.xlabel('Measurement',fontsize=label_fontsize)
 plt.ylabel('Sensitivity Score',fontsize=label_fontsize)
-plt.savefig("4a_population_level_ss_0to1",dpi=800)
+plt.savefig("4a_population_level_ss_0to1.pdf",format="pdf",dpi=800)
 
 
 # Population Level
@@ -399,7 +399,7 @@ plt.xlim(xmax=18)
 plt.xticks(x_ticks, x_ticks, rotation ='horizontal')
 plt.xlabel('Measurement',fontsize=label_fontsize)
 plt.ylabel('Sensitivity Score',fontsize=label_fontsize)
-plt.savefig("4b_population_level_css_0to1",dpi=800)
+plt.savefig("4b_population_level_css_0to1.pdf",format="pdf",dpi=800)
 
 
 # Population Level
@@ -433,7 +433,7 @@ plt.figure(figsize=(5, 5))
 plt.plot(x, y, 'o', color='blue')
 plt.xlabel('Maximum Perturbation',fontsize=label_fontsize)
 plt.ylabel('Success Rate',fontsize=label_fontsize)
-plt.savefig("5a_population_level_mp_vs_sr_0to1",dpi=800)
+plt.savefig("5a_population_level_mp_vs_sr_0to1.pdf",format="pdf",dpi=800)
 
 
 # Population Level
@@ -467,7 +467,7 @@ plt.figure(figsize=(5, 5))
 plt.plot(x, y, 'o', color='blue')
 plt.xlabel('Perturbation Percentage',fontsize=label_fontsize)
 plt.ylabel('Success Rate',fontsize=label_fontsize)
-plt.savefig("5b_population_level_pp_vs_sr_0to1",dpi=800)
+plt.savefig("5b_population_level_pp_vs_sr_0to1.pdf",format="pdf",dpi=800)
 
 
 
@@ -497,10 +497,10 @@ x_labels = [i for i in range(19)]
 norm = mcolors.TwoSlopeNorm(vmin=np.min(sensitivity_score), vmax = np.max(sensitivity_score), 
                                     vcenter=(np.min(sensitivity_score)+np.max(sensitivity_score))/2)
 im, cbar = heatmap(sensitivity_score, y_labels, x_labels, ax=None,
-                   cmap=plt.cm.RdBu_r, cbarlabel="Perturbation",norm=norm)
+                   cmap=plt.cm.RdBu_r, norm=norm)
 plt.xlabel('Measurement',fontsize=label_fontsize)
 plt.ylabel('Sensitivity Score',fontsize=label_fontsize)
-plt.savefig("7a_population_level_ss_1to0",dpi=800)
+plt.savefig("7a_population_level_ss_1to0.pdf",format="pdf",dpi=800)
 
 
 # Population Level
@@ -532,7 +532,7 @@ plt.xlim(xmax=18)
 plt.xticks(x_ticks, x_ticks, rotation ='horizontal')
 plt.xlabel('Measurement',fontsize=label_fontsize)
 plt.ylabel('Sensitivity Score',fontsize=label_fontsize)
-plt.savefig("7b_population_level_css_1to0",dpi=800)
+plt.savefig("7b_population_level_css_1to0.pdf",format="pdf",dpi=800)
 
 
 # Population Level
@@ -566,7 +566,7 @@ plt.figure(figsize=(5, 5))
 plt.plot(x, y, 'o', color='blue')
 plt.xlabel('Maximum Perturbation',fontsize=label_fontsize)
 plt.ylabel('Success Rate',fontsize=label_fontsize)
-plt.savefig("8a_population_level_mp_vs_sr_1to0",dpi=800)
+plt.savefig("8a_population_level_mp_vs_sr_1to0.pdf",format="pdf",dpi=800)
 
 
 # Population Level
@@ -600,6 +600,66 @@ plt.figure(figsize=(5, 5))
 plt.plot(x, y, 'o', color='blue')
 plt.xlabel('Perturbation Percentage',fontsize=label_fontsize)
 plt.ylabel('Success Rate',fontsize=label_fontsize)
-plt.savefig("8b_population_level_pp_vs_sr_1to0",dpi=800)
+plt.savefig("8b_population_level_pp_vs_sr_1to0.pdf",format="pdf",dpi=800)
 
 
+# Random patient
+# Perturbation 0 to 1
+# Large lambda
+
+lambda_level = 24
+
+path_string = 'noise_advs_0to1.pkl'
+fn = open(path_string, 'rb')
+noise_advs = pickle.load(fn)
+data = noise_advs[random_patient_id][lambda_level][0,:,:]
+
+font = {'size'   : 9}
+label_fontsize = 12
+matplotlib.rc('font', **font)
+plt.figure(figsize=(5, 5))
+def skip_other_two(labels):
+    for i in range(1,len(labels),2):
+        labels[i] = ''
+    return labels
+y_labels = [str(i) for i in range(48)]
+y_labels = skip_other_two(y_labels)
+
+x_labels = [i for i in range(19)]
+norm = mcolors.TwoSlopeNorm(vmin=np.min(data), vmax = np.max(data), vcenter=0)
+im, cbar = heatmap(data, y_labels, x_labels, ax=None,
+                   cmap=plt.cm.RdBu_r, norm=norm)
+plt.xlabel('Measurement',fontsize=label_fontsize)
+plt.ylabel('Time Stamp',fontsize=label_fontsize)
+plt.savefig("large_lambda_random_patient_pertubation_0to1.pdf",format="pdf",dpi=800)
+
+
+# Random patient
+# Perturbation 0 to 1
+# Small lambda
+
+lambda_level = 2
+
+path_string = 'noise_advs_0to1.pkl'
+fn = open(path_string, 'rb')
+noise_advs = pickle.load(fn)
+data = noise_advs[random_patient_id][lambda_level][0,:,:]
+
+font = {'size'   : 9}
+label_fontsize = 12
+matplotlib.rc('font', **font)
+plt.figure(figsize=(5, 5))
+def skip_other_two(labels):
+    for i in range(1,len(labels),2):
+        labels[i] = ''
+    return labels
+y_labels = [str(i) for i in range(48)]
+y_labels = skip_other_two(y_labels)
+
+x_labels = [i for i in range(19)]
+norm = mcolors.TwoSlopeNorm(vmin=np.min(data), vmax = np.max(data), vcenter=0)
+im, cbar = heatmap(data, y_labels, x_labels, ax=None,
+                   cmap=plt.cm.RdBu_r, norm=norm)
+plt.xlabel('Measurement',fontsize=label_fontsize)
+plt.ylabel('Time Stamp',fontsize=label_fontsize)
+plt.savefig("small_lambda_random_patient_pertubation_0to1.pdf",format="pdf",dpi=800)
