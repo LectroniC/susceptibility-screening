@@ -68,8 +68,8 @@ Please refer to our report for more figures and discussions.
 
 ## Project Layout
 - [mimic3gen](mimic3gen): This folder contains our data cleaning and extraction efforts. 
-- main.py: Train the target model (LSTM). The code references the original repo below and is made compatible in TF2. We follow the structure of the original code for clarity. This will output multiple files 
-- draw.py: Drawing the figures.
+- main.py: Train the target model (LSTM). The code references the original repo below and is made compatible in TF2. We follow the structure of the original code for clarity. Running this will output multiple files containing information about the adversarial noise generated.
+- draw.py: Drawing the figures based on the files output by main.py.
 
 ## Reference
 
