@@ -20,7 +20,7 @@ We provide the preprocessed dataset. To train the LSTM model mentioned in the pa
 You would need an @illinois.edu account to access the [data](https://drive.google.com/file/d/1BPwtfLnRe4bgKQ439eANFxKDvnkzgDNH/view?usp=sharing). 
 
 ## Preprocessing
-Code for preprocessing is not given by the original paper author.
+Code for preprocessing is not given by the original paper author. The dataset above has been preprocessed accordingly.
 
 ## Training and generate adversarial noise
 
